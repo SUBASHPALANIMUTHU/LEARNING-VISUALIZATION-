@@ -1,1 +1,18 @@
 # LEARNING-VISUALIZATION-
+import matplotlib.pyplot as plt
+
+# Sample data
+categories = ["A","B","C","D","E"]
+values = [23,45,12,36,29]
+
+# Create bar graph
+plt.figure(figsize=(8, 5))
+plt.bar(categories, values)
+
+# Labels and title
+plt.xlabel("Categories")
+plt.ylabel("Values")
+plt.title("Bar Graph Example")
+
+# Display graph
+plt.show()
